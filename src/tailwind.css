@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .btn {
+        @apply dark:bg-[#d1d4f4] bg-white text-[0.75rem] text-center rounded-md py-2 px-1 border-[1px] border-[#2b283a];
+    }
+}
